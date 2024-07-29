@@ -43,7 +43,7 @@ const ChartPage = () => {
               <img src={TOP_RIGHT} className="absolute ml-[620px]" />
               <img
                 src={BOTTOM_LEFT}
-                className="absolute mt-[470px] -ml-[14px]"
+                className="absolute mt-[450px] -ml-[14px]"
               />
               <img
                 src={BOTTOM_RIGHT}
