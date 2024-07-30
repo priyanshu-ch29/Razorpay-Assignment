@@ -4,7 +4,7 @@ import { TiTick } from "react-icons/ti";
 const AmazonSection = () => {
   return (
     <>
-      <div className="bg-sidebarColor rounded w-full mt-8 border-t-2 border-green-500 pb-5">
+      <div className="bg-sidebarColor rounded w-full mt-8 border-t-2 border-green-500 pb-2">
         <div className=" flex justify-between ml-4 mt-4">
           <div>
             <h1 className=" font-semibold text-[16px]">
@@ -28,7 +28,7 @@ const AmazonSection = () => {
           </div>
         </div>
       </div>
-      <div className="bg-sidebarColor rounded w-full border-t-2 border-green-500 pb-5">
+      <div className="bg-sidebarColor rounded w-full border-t-2 border-green-500 pb-2">
         <div className=" flex items-center justify-between ml-4 mt-4">
           <div>
             <h1 className=" font-semibold text-[16px]">
