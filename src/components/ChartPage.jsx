@@ -63,51 +63,52 @@ const ChartPage = () => {
               </span>
             </div>
 
-            <div className=" flex items-center gap-10 bg-gradient-custom mt-10 h-[15vh] w-[30%] ml-32">
-              <div className=" flex flex-col justify-center items-center ml-[25%]">
+            <div className=" flex justify-around items-center gap-10 bg-gradient-custom mt-5 h-28 w-[40%] ml-28">
+              <div className=" flex flex-col justify-center items-center ml-16">
                 <span className=" text-[12px] font-semibold">23 JUL</span>
                 <span className=" text-gray-500 text-[12px]">Tuesday</span>
               </div>
-              <div className="border-l-2 border-gray-700 absolute left-[49rem]">
-                <div className="flex items-center gap-5">
-                  <FiUser className=" ml-10" />
-                  <span className="flex">
-                    1
-                    <span className=" text-gray-500 ml-1">contact created</span>
-                  </span>
-                </div>
+              <div className="flex items-center gap-5 border-l-2 border-gray-700">
+                <FiUser className=" ml-10" />
+              </div>
+              <div className="realtive">
+                <span className="flex absolute -mt-3">
+                  1<span className=" text-gray-500 ml-1">contact created</span>
+                </span>
               </div>
             </div>
-            <div className=" flex items-center gap-10 bg-gradient-custom mt-5 h-[15vh] w-[30%] ml-32">
-              <div className=" flex flex-col justify-center items-center ml-[25%]">
+            <div className=" flex justify-around items-center gap-10 bg-gradient-custom mt-5 h-28 w-[40%] ml-28">
+              <div className=" flex flex-col justify-center items-center ml-16">
                 <span className=" text-[12px] font-semibold">9 JUL</span>
                 <span className=" text-gray-500 text-[12px]">Tuesday</span>
               </div>
-              <div className="border-l-2 border-gray-700 absolute left-[49rem]">
-                <div className="flex items-center gap-5">
-                  <img src={X_LOGO} className=" ml-10" />
-                  <span className="flex items-center text-white text-[12px] font-bold mt-1">
-                    <LiaRupeeSignSolid className="text-gray-500 text-[12px] font-bold" />
-                    236,695{" "}
-                    <span className="text-[12px] text-gray-500 mt-1">
-                      .00 created
-                    </span>
+              <div className="flex items-center gap-5 border-l-2 border-gray-700">
+                <img src={X_LOGO} className=" ml-10" />
+              </div>
+              <div className="realtive">
+                <span className="flex items-center text-white text-[12px] font-bold  absolute -mt-3">
+                  <LiaRupeeSignSolid className="text-gray-500 text-[12px] font-bold" />
+                  236,695{" "}
+                  <span className="text-[12px] text-gray-500 mt-1">
+                    .00 created
                   </span>
-                </div>
+                </span>
               </div>
             </div>
-            <div className=" flex items-center gap-10 bg-gradient-custom mt-5 h-[15vh] w-[30%] ml-32">
-              <div className=" flex flex-col justify-center items-center ml-[25%]">
+            <div className=" flex justify-around items-center gap-10 bg-gradient-custom mt-5 h-28 w-[40%] ml-28">
+              <div className=" flex flex-col justify-center items-center ml-16">
                 <span className=" text-[12px] font-semibold">1 JUL</span>
                 <span className=" text-gray-500 text-[12px]">Monday</span>
               </div>
-              <div className="border-l-2 border-gray-700 absolute left-[49rem]">
-                <div className="flex items-center gap-5">
-                  <img src={X_LOGO} className=" ml-10" />
+              <div className="flex items-center gap-5 border-l-2 border-gray-700">
+                <img src={X_LOGO} className=" ml-10" />
+              </div>
+              <div className="realtive">
+                <div className="absolute flex gap-2 -mt-3">
                   <span className="flex">
                     1<span className=" text-gray-500 ml-1">payout worth</span>
                   </span>
-                  <span className="flex items-center text-white text-[12px] font-bold -ml-4 mt-1">
+                  <span className="flex items-center text-white text-[12px] font-bold  mt-1">
                     <LiaRupeeSignSolid className="text-gray-500 text-[12px] font-bold" />
                     236,695{" "}
                     <span className="text-[12px] text-gray-500 mt-1">
@@ -117,10 +118,12 @@ const ChartPage = () => {
                 </div>
               </div>
             </div>
-            <button className="flex gap-2 items-center w-[15%] justify-center bg-background absolute left-[50rem] mt-3 text-white p-2 text-[12px] font-semibold">
-              LOOK FOR OLDER ACTIVITES{" "}
-              <IoIosArrowRoundDown className=" text-[20px]" />
-            </button>
+            <div className=" flex justify-center items-center">
+              <button className="flex gap-2 items-center justify-center bg-background mt-3 text-white p-2 text-[12px] font-semibold">
+                LOOK FOR OLDER ACTIVITES{" "}
+                <IoIosArrowRoundDown className=" text-[20px]" />
+              </button>
+            </div>
           </div>
         </div>
       </div>

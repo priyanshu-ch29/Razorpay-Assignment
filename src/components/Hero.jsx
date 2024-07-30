@@ -53,35 +53,30 @@ const Hero = () => {
           </div>
           <Account />
           <AmazonSection />
-          <div className="bg-sidebarColor border border-blue-700 rounded-sm w-full mt-4 bg-[url('https://x.razorpay.com/dist/assets/img/parallel-onboarding/card-background.svg')] bg-30p bg-no-repeat flex">
-            <div className="h-[13vh]">
-              <RxCross2 className=" ml-[630%] mt-1" />
-              <img
-                src="https://x.razorpay.com/dist/assets/img/parallel-onboarding/razorpayx-lite-badge.svg"
-                alt="Current Account"
-                className=" w-[60%] ml-4 -mt-4"
-              />
+          <div className="bg-sidebarColor border border-blue-700 rounded-sm w-full mt-4 bg-[url('https://x.razorpay.com/dist/assets/img/parallel-onboarding/card-background.svg')] bg-30p bg-no-repeat flex items-center justify-between">
+            <img
+              src="https://x.razorpay.com/dist/assets/img/parallel-onboarding/razorpayx-lite-badge.svg"
+              alt="Current Account"
+            />
+            <div className=" flex flex-col">
+              <h1 className="font-semibold text-[14px] flex items-center">
+                <div
+                  className="w-[5px] h-[15px] mr-3 bg-green-600"
+                  style={{ transform: "translateX(-10%) rotate(150deg)" }}
+                ></div>
+                Automate Bookings for payouts.
+              </h1>
+              <span className=" text-[12px] text-gray-400">
+                close your books 60% faster and with better accuracy by{" "}
+              </span>
+              <span className="text-[12px] text-gray-400">
+                automating bookkepping for your Payouts.
+              </span>
             </div>
-            <div className=" ml-20 mt-2 flex items-center">
-              <div className=" flex flex-col">
-                <h1 className="font-semibold text-[14px] flex items-center">
-                  <div
-                    className="w-[5px] h-[15px] mr-3 bg-green-600"
-                    style={{ transform: "translateX(-10%) rotate(150deg)" }}
-                  ></div>
-                  Automate Bookings for payouts.
-                </h1>
-                <span className=" text-[12px] text-gray-400">
-                  close your books 60% faster and with better accuracy by{" "}
-                </span>
-                <span className="text-[12px] text-gray-400">
-                  automating bookkepping for your Payouts.
-                </span>
-              </div>
-              <button className="text-blue-700 text-[10px] ml-28 bg-transparent border border-blue-700 p-1 pl-4 mt-2 rounded flex justify-center items-center gap-2">
-                Connect Zoho Books <IoIosArrowRoundForward />
-              </button>
-            </div>
+            <button className="text-blue-700 text-[10px] p-1 bg-transparent border border-blue-700 rounded flex justify-center items-center gap-2">
+              Connect Zoho Books <IoIosArrowRoundForward />
+            </button>
+            <RxCross2 className="mb-28" />
           </div>
         </div>
       </div>
